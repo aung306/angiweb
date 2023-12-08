@@ -2,40 +2,48 @@ import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Angela's website" },
+    { name: "description", content: "Angela Ung's Personal Website" },
   ];
 };
 
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <h1>Welcome to Remix</h1>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
-            15m Quickstart Blog Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/jokes"
-            rel="noreferrer"
-          >
-            Deep Dive Jokes App Tutorial
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-          </a>
-        </li>
-      </ul>
+    <div className="lg:text-center py-16 bg-gray-100">
+            <h2 className="text-base font-serif mt-2 mb-6 text-3xl sm:text-4xl font-bold tracking-tight leading-7 text-pink-400">
+              Angela Ung
+            </h2>
+            <div className="mt-6 mb-6 text-pink-900 text-lg font-medium">
+              <a className=" m-6 p-2 hover:text-pink-400" href="/aboutme">
+                    about me
+              </a>
+              <a> ~ </a>
+              <a className=" m-6 p-2 hover:text-pink-400" href="/socials">
+                    socials
+              </a>
+            </div>
+            <ul className="mx-auto max-w-4xl py-4 divide-y divide-gray-100 rounded-md border border-gray-200 bg-white">
+              <li>
+                <p
+                  className="font-semibold font-serif mt-3 text-lg h-10 leading-8 text-pink-400 mt-0"
+                >
+                  Welcome to my personal website! Click one of the tabs below to learn more about me.
+                </p>
+              </li>
+              <li className="text-center">
+                <div className="mt-12 mb-12 text-pink-900 text-lg font-medium">
+                  <a className=" m-6 p-2 rounded-md bg-pink-200 hover:text-pink-400" href="/swe">
+                  software engineering experience
+                  </a>
+                  <a className=" m-6 p-2 rounded-md bg-pink-200 hover:text-pink-400" href="/swe">
+                  graphic design portfolio
+                  </a>
+                  <a className=" m-6 p-2 rounded-md bg-pink-200 hover:text-pink-400" href="/swe">
+                  esports career
+                  </a>
+                </div>
+              </li>
+            </ul>
     </div>
   );
 }
