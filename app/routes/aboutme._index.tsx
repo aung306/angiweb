@@ -25,7 +25,7 @@ export default function Index() {
             <ul className="pr-6 pl-6 mx-auto max-w-4xl p-4 divide-y divide-gray-100 mb-20 rounded-md border border-gray-200 bg-white">
               <li>
                 <p
-                  className="animate-fade-down font-semibold mt-6 mb-20 text-lg h-10 leading-8 text-pink-400 mt-0"
+                  className="flex animate-fade-down mt-6 mb-20 text-lg h-10 leading-8 text-pink-400 mt-0"
                 >
                   I am a full stack developer currently in her junior year at the University of Florida. I am open to full time positions in software engineering, graphic design, and esports. 
                   Click the back button to learn more about my qualifications! Interested? Find my email in my socials!
