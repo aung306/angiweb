@@ -10,7 +10,7 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div className="bg-[url('../img/cherry.gif')] bg-no-repeat bg-cover lg:text-center py-24 bg-gray-100">
-            <h1 className="animate-fade-down text-base font-serif mt-24 mb-12 text-6xl font-bold tracking-tight leading-7 text-pink-400">
+            <h1 className="animate-fade-down text-base font-serif mt-24 mb-12 text-7xl font-bold tracking-tight leading-7 text-pink-400">
               Angela Ung
             </h1>
             <div className="animate-fade-down mt-6 mb-36 text-pink-900 text-lg font-medium">
