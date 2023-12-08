@@ -22,7 +22,7 @@ export default function Index() {
                     socials
               </a>
             </div>
-            <ul className="mx-auto max-w-6xl py-4 divide-y divide-gray-100 mb-20 rounded-md border border-gray-200 bg-white">
+            <ul className="pr-6 pl-6 mx-auto max-w-6xl py-4 divide-y divide-gray-100 mb-20 rounded-md border border-gray-200 bg-white">
               <li>
                 <p
                   className="animate-fade-down font-semibold mt-6 mb-10 text-lg h-10 leading-8 text-pink-400 mt-0"
