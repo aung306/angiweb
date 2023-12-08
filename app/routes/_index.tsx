@@ -2,7 +2,7 @@ import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Angela's website" },
+    { title: "AngiWeb <3" },
     { name: "description", content: "Angela Ung's Personal Website" },
   ];
 };
@@ -10,7 +10,7 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div className="lg:text-center py-16 bg-gray-100">
-            <h2 className="animate-fade-down animate-pulse text-base font-serif mt-2 mb-6 text-3xl sm:text-4xl font-bold tracking-tight leading-7 text-pink-400">
+            <h2 className="animate-fade-down text-base font-serif mt-2 mb-6 text-3xl sm:text-4xl font-bold tracking-tight leading-7 text-pink-400">
               Angela Ung
             </h2>
             <div className="animate-fade-down mt-6 mb-6 text-pink-900 text-lg font-medium">
