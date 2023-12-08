@@ -1,6 +1,7 @@
 # Documentation for AngiWeb!
 
-- [How to start a frontend Remix application](https://remix.run/docs)
+- [Frontend Framework: Remix Docs](https://remix.run/docs)
+- [CSS Framework: Tailwind Docs](https://tailwindcss.com/docs/installation)
 
 ## Development
 
