@@ -44,11 +44,11 @@ export default function Index() {
                 >
                   B.S. in Computer Science at <a href="https://www.ufl.edu/" className="underline text-pink-700">University of Florida</a>'s <a href="https://www.eng.ufl.edu/" className="underline text-pink-700">College of Engineering</a>
                 </p>
-                <p
-                  className="animate-fade-down m-16 text-sm h-10 leading-8 text-pink-400"
-                >
-                  No. 1 Public University of 2023 - <a href="https://www.wptv.com/news/state/university-of-florida-ranked-no-1-public-school-in-nation-by-wall-steet-journal" className="underline text-pink-700">Wall Street Journal</a>
-                </p>
+                <div className="animate-fade-down flex justify-center m-12 text-pink-400 font-medium">
+                    <p className="animate-fade-down p-2 pl-4 pr-4 rounded-xl bg-pink-100">
+                    No. 1 Public University of 2023 - <a href="https://www.wptv.com/news/state/university-of-florida-ranked-no-1-public-school-in-nation-by-wall-steet-journal" className="underline text-pink-700">Wall Street Journal</a>
+                    </p>
+                </div>
                 <p
                   className="animate-fade-down font-bold m-4 mb-16 text-xl h-10 leading-8 text-pink-400"
                 >
@@ -78,7 +78,7 @@ export default function Index() {
                     </a>
                 </div>
                 <p
-                   className="animate-fade-up m-16 mb-4 text-md p-3 font-semibold leading-10 text-pink-500">
+                   className="animate-fade-up m-16 mb-4 text-md p-3 font-semibold leading-10 text-pink-700">
                     <a className="text-4xl font-['Arial']">" </a>
                     Angela took and delivered on an actual project where she built the frontend for a new internal tool. 
                     She had to learn a new tech stack; she took that up as a challenge and was able to learn it very quickly and was able to start contributing in just a couple of days. 
@@ -87,6 +87,14 @@ export default function Index() {
                 </p>
                 <p className="text-pink-600 animate-fade-up font-semibold mb-16">- <a href="https://www.linkedin.com/in/kaushaldalvi/" className="underline text-pink-700">Kaushal Dalvi</a></p>
                 </div>
+                <div className="animate-fade-down flex justify-center mt-6 mb-4 text-pink-400 font-medium">
+                    <a className="animate-bounce p-2 pl-4 pr-4 rounded-xl bg-pink-100">
+                    watch my demo below!
+                    </a>
+                </div>
+                <div className="p-8 flex items-center justify-center">
+                      <iframe className="rounded-xl w-full aspect-video" src="https://www.youtube-nocookie.com/embed/9zLWJ84KNis">hello!</iframe>
+                </div>
               </li>
               <li>
                 <p id="projects"
@@ -94,6 +102,22 @@ export default function Index() {
                 >
                   Projects
                 </p>
+                <div className="p-4 animate-fade-up flex justify-center mb-6 text-pink-900">
+                  <ul className="pr-10 pl-10 mx-auto max-w-5xl p-4 divide-y divide-gray-300 rounded-md border border-gray-300 bg-pink-50">
+                    <li className="font-semibold mb-2 text-xl">
+                      pTick
+                    </li>
+                    <li className="p-4">
+                      <p className="">Orchestrator application that utilizes REST APIs, enabling non-software engineers to conduct LoadRunner performance testing on UKG's internal environments by providing a user-friendly interface and easy to understand results that automatically get emailed to the user. </p>
+                    </li>
+                    <li className="text-left p-4">
+                      <p className="">UKG Internship Project</p>
+                    </li>
+                    <li className="font-semibold text-pink-800 pt-4 pb-4">
+                      <p className="">TypeScript || Remix || NodeJS || TailwindCSS || Git || Kubernetes || Docker || Rest APIs || Axios || NestJS || VSCode || TSX </p>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li className="animate-fade-up text-center mb-10 content-center">
                 <div className="flex justify-center mt-6 mb-6 text-pink-900 text-lg font-medium">

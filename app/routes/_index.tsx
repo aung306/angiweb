@@ -35,8 +35,8 @@ export default function Index() {
                   <a className="m-6 p-4 rounded-md bg-pink-200 hover:text-pink-400" href="/swe">
                   software engineering experience
                   </a>
-                  <a className=" m-6 p-4 rounded-md bg-pink-200 hover:text-pink-400" href="/graphic">
-                  graphic design portfolio
+                  <a className=" m-6 p-4 rounded-md bg-pink-200 hover:text-pink-400" href="/design">
+                  digital design portfolio
                   </a>
                   <a className=" m-6 p-4 rounded-md bg-pink-200 hover:text-pink-400" href="/esport">
                   esports career
