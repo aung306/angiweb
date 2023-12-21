@@ -50,10 +50,19 @@ export default function Index() {
                     </p>
                 </div>
                 <p
-                  className="animate-fade-down font-bold m-4 mb-16 text-xl h-10 leading-8 text-pink-400"
+                  className="animate-fade-down font-bold m-4 text-xl h-10 leading-8 text-pink-400"
                 >
                   <a className="text-orange-400">Go</a> <a className="text-blue-400">Gators!</a>
                 </p>
+                <div className="p-4 animate-fade-down flex justify-center mb-6 text-pink-900">
+                  <ul className="pr-10 pl-10 mx-auto max-w-5xl p-4 divide-y divide-gray-300 rounded-md border border-gray-300 bg-pink-50">
+                    <li className="text-left font-semibold text-pink-700">
+                      <p><a className="font-bold">Languages: </a> Java | C/C++ | JavaScript | MATLAB | ARM</p>
+                      <p><a className="font-bold">Courses: </a> Data Structures & Algorithms | Operating Systems | Network Fundamentals | Software Enterprise Practices</p>
+                      <p><a className="font-bold">Tools: </a> AWS | Angular | Agile | Wireframes | VSCode</p>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li>
                 <p id="intern"
@@ -64,12 +73,7 @@ export default function Index() {
                 <p
                   className="animate-fade-down font-semibold m-12 text-xl leading-8 text-pink-400"
                 >
-                  Ultimate Kronos Group (UKG) - Software Engineering Intern
-                </p>
-                <p
-                  className="animate-fade-down animate-pulse m-6 text-md leading-8 text-pink-400"
-                >
-                  What did I do there?
+                  Ultimate Kronos Group (UKG) - Software Engineering Intern Summer 2023
                 </p>
                 <div className="ease-in leading-12">
                 <div className="animate-fade-down flex justify-center mt-6 mb-4 text-pink-900 text-md font-medium">
@@ -95,6 +99,14 @@ export default function Index() {
                 <div className="p-8 flex items-center justify-center">
                       <iframe className="rounded-xl w-full aspect-video" src="https://www.youtube-nocookie.com/embed/9zLWJ84KNis">hello!</iframe>
                 </div>
+                <div className="p-4 animate-fade-down flex justify-center mb-6 text-pink-900">
+                  <ul className="pr-10 pl-10 mx-auto max-w-5xl p-4 divide-y divide-gray-300 rounded-md border border-gray-300 bg-pink-50">
+                    <li className="text-left font-semibold text-pink-700">
+                      <p><a className="font-bold">Tech Stack: </a> TypeScript/TSX/Tailwind CSS</p>
+                      <p><a className="font-bold">Tools: </a> Remix/React | Node.js | Agile | NestJS | Mocha | Kubernetes | Docker | GitHub Actions | REST APIs | Postman</p>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li>
                 <p id="projects"
@@ -105,16 +117,114 @@ export default function Index() {
                 <div className="p-4 animate-fade-up flex justify-center mb-6 text-pink-900">
                   <ul className="pr-10 pl-10 mx-auto max-w-5xl p-4 divide-y divide-gray-300 rounded-md border border-gray-300 bg-pink-50">
                     <li className="font-semibold mb-2 text-xl">
+                      <a href="https://github.com/aung306/angiweb">AngiWeb</a>
+                    </li>
+                    <li className="p-4">
+                      <p className="">Personal portfolio with a Remix frontend & CI/CD. Heavy focus on embedding external applications that showcase different field experiences. </p>
+                    </li>
+                    <li className="text-left leading-16 p-4 pl-12 pr-12">
+                      <p><a className="font-bold">Project Type: </a>Personal Project</p>
+                      <p><a className="font-bold">Timeline: </a>Winter 2023</p>
+                      <p><a className="font-bold">Role: </a>Owner</p>
+                      <p><a className="font-bold">Key Notes: </a>Beginner-friendly documentation for website deployment. </p>
+                    </li>
+                    <li className="font-semibold text-pink-800 pt-4 pb-4">
+                      <p className="">TypeScript || Remix || NodeJS || Tailwind CSS || Git || Fly.io || VSCode || TSX </p>
+                    </li>
+                  </ul>
+                </div>
+                <div className="p-4 animate-fade-up flex justify-center mb-6 text-pink-900">
+                  <ul className="pr-10 pl-10 mx-auto max-w-5xl p-4 divide-y divide-gray-300 rounded-md border border-gray-300 bg-pink-50">
+                    <li className="font-semibold mb-2 text-xl">
                       pTick
                     </li>
                     <li className="p-4">
                       <p className="">Orchestrator application that utilizes REST APIs, enabling non-software engineers to conduct LoadRunner performance testing on UKG's internal environments by providing a user-friendly interface and easy to understand results that automatically get emailed to the user. </p>
                     </li>
-                    <li className="text-left p-4">
-                      <p className="">UKG Internship Project</p>
+                    <li className="text-left leading-16 p-4 pl-12 pr-12">
+                      <p><a className="font-bold">Project Type: </a>UKG Internship</p>
+                      <p><a className="font-bold">Timeline: </a>Summer 2023</p>
+                      <p><a className="font-bold">Role: </a>Product Lead & Fullstack Developer</p>
+                      <p><a className="font-bold">Key Notes: </a>Owned project from ground up and included scalability for parameters & test suites</p>
                     </li>
                     <li className="font-semibold text-pink-800 pt-4 pb-4">
-                      <p className="">TypeScript || Remix || NodeJS || TailwindCSS || Git || Kubernetes || Docker || Rest APIs || Axios || NestJS || VSCode || TSX </p>
+                      <p className="">TypeScript || Remix || NodeJS || Tailwind CSS || Git || Kubernetes || Docker || Rest APIs || Axios || NestJS || VSCode || TSX </p>
+                    </li>
+                  </ul>
+                </div>
+                <div className="p-4 animate-fade-up flex justify-center mb-6 text-pink-900">
+                  <ul className="pr-10 pl-10 mx-auto max-w-5xl p-4 divide-y divide-gray-300 rounded-md border border-gray-300 bg-pink-50">
+                    <li className="font-semibold mb-2 text-xl">
+                    <a href="https://github.com/angela-ung/riverwalk">UKG Real</a>
+                    </li>
+                    <li className="p-4">
+                      <p className="">Frontend extension that recorded work-related moods and congregated results in ChartJS to understand the effects of work events on motivation.</p>
+                    </li>
+                    <li className="text-left leading-16 p-4 pl-12 pr-12">
+                      <p><a className="font-bold">Project Type: </a>UKG Internship</p>
+                      <p><a className="font-bold">Timeline: </a>Summer 2023</p>
+                      <p><a className="font-bold">Role: </a>Product Lead & Frontend Developer</p>
+                      <p><a className="font-bold">Key Notes: </a>Contributed over 80% of code for 48-hour hackathon project in intern team of 3</p>
+                    </li>
+                    <li className="font-semibold text-pink-800 pt-4 pb-4">
+                      <p className="">TypeScript || Remix || NodeJS || Tailwind CSS || Git || ChartJS || VSCode || TSX </p>
+                    </li>
+                  </ul>
+                </div>
+                <div className="p-4 animate-fade-up flex justify-center mb-6 text-pink-900">
+                  <ul className="pr-10 pl-10 mx-auto max-w-5xl p-4 divide-y divide-gray-300 rounded-md border border-gray-300 bg-pink-50">
+                    <li className="font-semibold mb-2 text-xl">
+                    <a href="https://github.com/100-Incorporated">E-Colosseum</a>
+                    </li>
+                    <li className="p-4">
+                      <p className="">E-Colosseum is a PVP web application that tests players in brain coordination with the integration of stock market trading to analyze the effects of stakes on performance.</p>
+                    </li>
+                    <li className="text-left leading-16 p-4 pl-12 pr-12">
+                      <p><a className="font-bold">Project Type: </a>University Project</p>
+                      <p><a className="font-bold">Timeline: </a>Spring 2023</p>
+                      <p><a className="font-bold">Role: </a>Scrum Master & Frontend Developer</p>
+                      <p><a className="font-bold">Key Notes: </a>Created landing page, a typing game, and login feature. Worked in a student team of 4</p>
+                    </li>
+                    <li className="font-semibold text-pink-800 pt-4 pb-4">
+                      <p className="">JavaScript || Angular || NodeJS || HTML/CSS || Git || Angular || Go || VSCode || Frontend Development </p>
+                    </li>
+                  </ul>
+                </div>
+                <div className="p-4 animate-fade-up flex justify-center mb-6 text-pink-900">
+                  <ul className="pr-10 pl-10 mx-auto max-w-5xl p-4 divide-y divide-gray-300 rounded-md border border-gray-300 bg-pink-50">
+                    <li className="font-semibold mb-2 text-xl">
+                    <a href="https://github.com/AkshayAshok2/family-guy-search-engine">Lightweight Optimal Integrated Search (LOIS)</a>
+                    </li>
+                    <li className="p-4">
+                      <p className="">LOIS is a search engine that utilizes BP-DP & filter search to traverse a dataset of over 100,000 of English television series scripts.</p>
+                    </li>
+                    <li className="text-left leading-16 p-4 pl-12 pr-12">
+                      <p><a className="font-bold">Project Type: </a>University Project</p>
+                      <p><a className="font-bold">Timeline: </a>Fall 2022</p>
+                      <p><a className="font-bold">Role: </a>Scrum Master & Frontend Developer</p>
+                      <p><a className="font-bold">Key Notes: </a>Final project in a student team of 3</p>
+                    </li>
+                    <li className="font-semibold text-pink-800 pt-4 pb-4">
+                      <p className="">JavaScript || HTML/CSS || Git || VSCode || Data Structures || Frontend Development </p>
+                    </li>
+                  </ul>
+                </div>
+                <div className="p-4 animate-fade-up flex justify-center mb-6 text-pink-900">
+                  <ul className="pr-10 pl-10 mx-auto max-w-5xl p-4 divide-y divide-gray-300 rounded-md border border-gray-300 bg-pink-50">
+                    <li className="font-semibold mb-2 text-xl">
+                    HandSpeak
+                    </li>
+                    <li className="p-4">
+                      <p className="">HandSpeak is a medical product designed to aid those who suffer from ALS or other major disruptive paralysis. This device intakes slight vibrations of Morse code and then translates into a message.</p>
+                    </li>
+                    <li className="text-left leading-16 p-4 pl-12 pr-12">
+                      <p><a className="font-bold">Project Type: </a>University Project</p>
+                      <p><a className="font-bold">Timeline: </a>Spring 2022</p>
+                      <p><a className="font-bold">Role: </a>Backend Developer & Researcher</p>
+                      <p><a className="font-bold">Key Notes: </a>Used Tinkercad to demonstrate wiring of prototype</p>
+                    </li>
+                    <li className="font-semibold text-pink-800 pt-4 pb-4">
+                      <p className="">C || Arduino || Open Source || TinkerCad</p>
                     </li>
                   </ul>
                 </div>
