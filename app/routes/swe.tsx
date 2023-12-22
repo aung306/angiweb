@@ -35,12 +35,12 @@ export default function Index() {
               </li>
               <li>
                 <p id="education"
-                  className="animate-fade-down font-['Vivaldi'] m-10 text-3xl text-brown-800"
+                  className="animate-fade-down font-['Vivaldi'] m-10 text-5xl text-brown-800"
                 >
                   Education
                 </p>
                 <p
-                  className="animate-fade-down font-semibold m-12 text-xl h-10 leading-8 text-pink-400"
+                  className="animate-fade-down font-semibold m-12 text-2xl h-10 leading-8 text-pink-400"
                 >
                   B.S. in Computer Science at <a href="https://www.ufl.edu/" className="underline text-pink-700">University of Florida</a>'s <a href="https://www.eng.ufl.edu/" className="underline text-pink-700">College of Engineering</a>
                 </p>
@@ -66,12 +66,12 @@ export default function Index() {
               </li>
               <li>
                 <p id="intern"
-                  className="animate-fade-down font-['Vivaldi'] m-10 text-3xl text-brown-800"
+                  className="animate-fade-down font-['Vivaldi'] m-10 text-5xl text-brown-800"
                 >
                   Internships
                 </p>
                 <p
-                  className="animate-fade-down font-semibold m-12 text-xl leading-8 text-pink-400"
+                  className="animate-fade-down font-semibold m-12 text-3xl leading-8 text-pink-400"
                 >
                   Ultimate Kronos Group (UKG) - Software Engineering Intern Summer 2023
                 </p>
@@ -97,7 +97,7 @@ export default function Index() {
                     </a>
                 </div>
                 <div className="p-8 flex items-center justify-center">
-                      <iframe className="rounded-xl w-full aspect-video" src="https://www.youtube-nocookie.com/embed/9zLWJ84KNis">hello!</iframe>
+                      <iframe className="rounded-xl w-full aspect-video" src="https://www.youtube-nocookie.com/embed/9zLWJ84KNis"/>
                 </div>
                 <div className="p-4 animate-fade-down flex justify-center mb-6 text-pink-900">
                   <ul className="pr-10 pl-10 mx-auto max-w-5xl p-4 divide-y divide-gray-300 rounded-md border border-gray-300 bg-pink-50">
@@ -110,13 +110,13 @@ export default function Index() {
               </li>
               <li>
                 <p id="projects"
-                  className="animate-fade-up font-['Vivaldi'] m-10 text-3xl text-brown-800"
+                  className="animate-fade-up font-['Vivaldi'] m-10 text-5xl text-brown-800"
                 >
                   Projects
                 </p>
                 <div className="p-4 animate-fade-up flex justify-center mb-6 text-pink-900">
                   <ul className="pr-10 pl-10 mx-auto max-w-5xl p-4 divide-y divide-gray-300 rounded-md border border-gray-300 bg-pink-50">
-                    <li className="font-semibold mb-2 text-xl">
+                    <li className="font-semibold mb-2 text-3xl p-4">
                       <a href="https://github.com/aung306/angiweb">AngiWeb</a>
                     </li>
                     <li className="p-4">
@@ -135,7 +135,7 @@ export default function Index() {
                 </div>
                 <div className="p-4 animate-fade-up flex justify-center mb-6 text-pink-900">
                   <ul className="pr-10 pl-10 mx-auto max-w-5xl p-4 divide-y divide-gray-300 rounded-md border border-gray-300 bg-pink-50">
-                    <li className="font-semibold mb-2 text-xl">
+                    <li className="font-semibold mb-2 text-3xl p-4">
                       pTick
                     </li>
                     <li className="p-4">
@@ -154,7 +154,7 @@ export default function Index() {
                 </div>
                 <div className="p-4 animate-fade-up flex justify-center mb-6 text-pink-900">
                   <ul className="pr-10 pl-10 mx-auto max-w-5xl p-4 divide-y divide-gray-300 rounded-md border border-gray-300 bg-pink-50">
-                    <li className="font-semibold mb-2 text-xl">
+                    <li className="font-semibold mb-2 text-3xl p-4">
                     <a href="https://github.com/angela-ung/riverwalk">UKG Real</a>
                     </li>
                     <li className="p-4">
@@ -173,7 +173,7 @@ export default function Index() {
                 </div>
                 <div className="p-4 animate-fade-up flex justify-center mb-6 text-pink-900">
                   <ul className="pr-10 pl-10 mx-auto max-w-5xl p-4 divide-y divide-gray-300 rounded-md border border-gray-300 bg-pink-50">
-                    <li className="font-semibold mb-2 text-xl">
+                    <li className="font-semibold mb-2 text-3xl p-4">
                     <a href="https://github.com/100-Incorporated">E-Colosseum</a>
                     </li>
                     <li className="p-4">
@@ -192,7 +192,7 @@ export default function Index() {
                 </div>
                 <div className="p-4 animate-fade-up flex justify-center mb-6 text-pink-900">
                   <ul className="pr-10 pl-10 mx-auto max-w-5xl p-4 divide-y divide-gray-300 rounded-md border border-gray-300 bg-pink-50">
-                    <li className="font-semibold mb-2 text-xl">
+                    <li className="font-semibold mb-2 text-3xl p-4">
                     <a href="https://github.com/AkshayAshok2/family-guy-search-engine">Lightweight Optimal Integrated Search (LOIS)</a>
                     </li>
                     <li className="p-4">
@@ -211,7 +211,7 @@ export default function Index() {
                 </div>
                 <div className="p-4 animate-fade-up flex justify-center mb-6 text-pink-900">
                   <ul className="pr-10 pl-10 mx-auto max-w-5xl p-4 divide-y divide-gray-300 rounded-md border border-gray-300 bg-pink-50">
-                    <li className="font-semibold mb-2 text-xl">
+                    <li className="font-semibold mb-2 text-3xl p-4">
                     HandSpeak
                     </li>
                     <li className="p-4">
