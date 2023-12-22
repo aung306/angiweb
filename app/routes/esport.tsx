@@ -24,8 +24,8 @@ export default function Index() {
             </div>
             <ul className="pr-6 pl-6 mx-auto max-w-6xl p-4 divide-y divide-gray-200 mb-20 rounded-md border border-gray-300 bg-white">
               <li>
-              <p id="education"
-                  className="animate-fade-down font-['Vivaldi'] m-10 mb-2 text-3xl text-brown-800"
+              <p
+                  className="animate-fade-down font-['Vivaldi'] m-10 mb-2 text-5xl text-brown-800"
                 >
                   Valorant
                 </p>
@@ -36,7 +36,7 @@ export default function Index() {
                       <p><a className="font-bold">Primary Role: </a>Sentinel & Smokes</p>
                   </div>
               </div>
-              <p className="animate-fade-up font-semibold text-xl leading-8 text-pink-400">
+              <p className="animate-fade-up font-semibold text-3xl p-2 leading-8 text-pink-400">
                     Competitive Scene Experience
               </p>
               <div className="p-4 animate-fade-up flex justify-center mb-6 text-pink-900">
@@ -45,7 +45,7 @@ export default function Index() {
                       <a>UFFSA WolfPack Tournament</a>
                     </li>
                     <li className="p-4">
-                      <p className="">University tournament competing for $1000 donation to charity of choice </p>
+                      <p className="">16-team tourney competing for $1000 donation to charity of choice </p>
                     </li>
                     <li className="text-left leading-16 p-4 pl-12 pr-12">
                       <p><a className="font-bold">Placement: </a>Semifinalists</p>
