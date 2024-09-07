@@ -10,13 +10,13 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="bg-[url('../img/cherry.gif')] bg-no-repeat bg-cover text-center py-24 bg-gray-200">
+    <div className="bg-[url('../img/cherry.gif')] bg-no-repeat bg-cover text-center py-24 bg-gray-200 font-['Cambria']">
             <div>
-              <p className="text-6xl animate-fade-down animate-pulse mt-24 mb-12 font-bold leading-7 text-pink-400">
-                Angela Ung
+              <p className="text-6xl animate-fade-down animate-pulse mt-24 mb-24 font-serif font-bold leading-7 text-pink-400">
+                Software Engineering
               </p>
             </div>
-            <div className="animate-fade-down mt-6 mb-28 text-pink-900 text-lg font-medium">
+            <div className="animate-fade-down mt-6 mb-10 text-pink-900 text-lg font-bold">
               <a className="m-6 p-2 hover:text-pink-400" href="/aboutme">
                     about me
               </a>
@@ -24,14 +24,20 @@ export default function Index() {
               <a className="m-6 p-2 hover:text-pink-400" href="/socials">
                     socials
               </a>
+              <div className="flex justify-center mt-6 mb-6 text-pink-900 text-sm font-medium">
+                  <a className=" m-3 p-2 pl-4 pr-4 rounded-md bg-pink-200 hover:text-pink-400" href="/">
+                  back
+                  </a>
+                </div>
             </div>
-            <ul className="pr-6 pl-6 mx-auto max-w-5xl p-4 divide-y divide-gray-300 mb-20 rounded-md border border-gray-300 bg-white">
+            <ul className="pr-6 pl-6 mx-auto max-w-5xl p-4 divide-y divide-gray-300 mb-20 rounded-md border border-gray-300 bg-gray-50">
               <li>
                 <p className="animate-fade-down font-semibold m-6 text-md h-10 leading-8 text-pink-300">
                  <a href="#education" className="m-3 hover:text-pink-400">education</a>  -  
                  <a href="#intern" className="m-3 hover:text-pink-400">internships</a>  -  
                  <a href="#projects" className="m-3 hover:text-pink-400">projects</a>
                 </p>
+
               </li>
               <li>
                 <p id="education"
