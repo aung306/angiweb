@@ -27,7 +27,7 @@ export default function Index() {
                   </a>
       </div>
     </div>
-    <ul className="font-['Cambria'] pr-6 pl-6 mx-auto max-w-6xl p-4 divide-y divide-gray-200 mb-20 rounded-md border border-gray-300 bg-white">
+    <ul className="font-['Cambria'] pr-6 pl-6 mx-auto max-w-6xl p-4 divide-y divide-gray-200 mb-20 rounded-md border border-gray-300 bg-gray-50">
               <li> 
                   <p
                     className="animate-fade-down font-semibold mt-6 text-lg h-10 leading-8 text-pink-300 mt-0"
